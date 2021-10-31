@@ -229,7 +229,7 @@ async def call_apropriate_function(
     if message_to_send != "":
         mention_req_user = f"<a href='tg://user?id={user_id}'>Your Requested Files</a>\n\n"
         message_to_send = mention_req_user + message_to_send
-        message_to_send = message_to_send + "\n" + "🏅<b>POWERED BY : @APDLEECHBOX</b>\n#UPLOADED"
+        message_to_send = message_to_send + "\n" + "🏅<b>POWERED BY : @KOT_BOTS>\n#UPLOADED"
     else:
         message_to_send = "<i>FAILED</i> To Leech Files."
     await sent_message_to_update_tg_p.reply_to_message.reply_text(
